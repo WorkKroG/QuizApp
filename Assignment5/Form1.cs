@@ -12,11 +12,14 @@ using System.Windows.Forms;
 namespace Quiz
 {
     public partial class Form1 : Form
-    {
+    {       
         public Form1()
         {
             InitializeComponent();
+            this.BackgroundImage = new Bitmap(@"./1.jpg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
+        
 
         private int id;
         private int points = 0;
@@ -25,6 +28,8 @@ namespace Quiz
 
         List<int> randomNumbers = new List<int>();
         Random rand = new Random();
+
+        
 
         private void dropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -45,7 +50,7 @@ namespace Quiz
             Go.Enabled = false;
             Submit.Enabled = true;
 
-            id = rand.Next(1, 11);
+            id = rand.Next(1, 16);
             randomNumbers.Add(id);
             list = q.getQuestion(id, category);
 
@@ -136,7 +141,7 @@ namespace Quiz
             options.Enabled = true;
             options.Refresh();
 
-            do id = rand.Next(1, 11);
+            do id = rand.Next(1, 16);
             while (randomNumbers.Contains(id));
             randomNumbers.Add(id);
 
@@ -146,7 +151,7 @@ namespace Quiz
 
             if (list.Count > 1)
             {
-                if (count <= 8)
+                if (count <= 13)
                 {
                     ques.Text = list[0].ToString();
                     foreach (Control control in options.Controls)
@@ -160,7 +165,7 @@ namespace Quiz
                         }
                     }
                     count++;
-                    if (count > 8)
+                    if (count > 13)
                     {
                         {
 
@@ -228,6 +233,11 @@ namespace Quiz
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void question_Click(object sender, EventArgs e)
         {
 
         }

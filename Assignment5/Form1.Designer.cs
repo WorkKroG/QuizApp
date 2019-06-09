@@ -110,6 +110,7 @@
             this.question.Size = new System.Drawing.Size(91, 25);
             this.question.TabIndex = 5;
             this.question.Text = "Вопрос:";
+            this.question.Click += new System.EventHandler(this.question_Click);
             // 
             // ques
             // 
@@ -212,9 +213,8 @@
             this.dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.dropdown.FormattingEnabled = true;
             this.dropdown.Items.AddRange(new object[] {
-            "Test-1",
-            "Test-2",
-            "Test-3"});
+            "Level-1",
+            "Level-2"});
             this.dropdown.Location = new System.Drawing.Point(572, 62);
             this.dropdown.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dropdown.Name = "dropdown";

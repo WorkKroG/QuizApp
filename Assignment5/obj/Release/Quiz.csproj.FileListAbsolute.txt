@@ -1,0 +1,10 @@
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\bin\Release\Assignment5.exe.config
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\bin\Release\Assignment5.exe
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\bin\Release\Assignment5.pdb
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\obj\Release\Quiz.csprojAssemblyReference.cache
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\obj\Release\Quiz.Form1.resources
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\obj\Release\Quiz.Properties.Resources.resources
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\obj\Release\Quiz.csproj.GenerateResource.cache
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\obj\Release\Quiz.csproj.CoreCompileInputs.cache
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\obj\Release\Assignment5.exe
+C:\Program1\Projects\C#\Desktop-Quiz-Application-master\Assignment5\obj\Release\Assignment5.pdb
